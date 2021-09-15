@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0440F0BF26F209D200852D6B /* TodoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0440F0BE26F209D200852D6B /* TodoTableViewCell.swift */; };
 		B424416C26F154A400F89F65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B424416B26F154A400F89F65 /* AppDelegate.swift */; };
 		B424416E26F154A400F89F65 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B424416D26F154A400F89F65 /* SceneDelegate.swift */; };
-		B424417326F154A400F89F65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B424417126F154A400F89F65 /* Main.storyboard */; };
 		B424417626F154A400F89F65 /* TodoAPP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B424417426F154A400F89F65 /* TodoAPP.xcdatamodeld */; };
 		B424417826F154A600F89F65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B424417726F154A600F89F65 /* Assets.xcassets */; };
 		B424417B26F154A600F89F65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B424417926F154A600F89F65 /* LaunchScreen.storyboard */; };
@@ -19,10 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0440F0BE26F209D200852D6B /* TodoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoTableViewCell.swift; sourceTree = "<group>"; };
 		B424416826F154A400F89F65 /* TodoAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B424416B26F154A400F89F65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B424416D26F154A400F89F65 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B424417226F154A400F89F65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B424417526F154A400F89F65 /* TodoAPP.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TodoAPP.xcdatamodel; sourceTree = "<group>"; };
 		B424417726F154A600F89F65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B424417A26F154A600F89F65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -66,12 +66,12 @@
 			children = (
 				B424416B26F154A400F89F65 /* AppDelegate.swift */,
 				B424416D26F154A400F89F65 /* SceneDelegate.swift */,
-				B424417126F154A400F89F65 /* Main.storyboard */,
 				B424417726F154A600F89F65 /* Assets.xcassets */,
 				B424417926F154A600F89F65 /* LaunchScreen.storyboard */,
 				B424417C26F154A600F89F65 /* Info.plist */,
 				B424417426F154A400F89F65 /* TodoAPP.xcdatamodeld */,
 				B424418A26F1658E00F89F65 /* TodoViewController.swift */,
+				0440F0BE26F209D200852D6B /* TodoTableViewCell.swift */,
 			);
 			path = TodoAPP;
 			sourceTree = "<group>";
@@ -135,7 +135,6 @@
 			files = (
 				B424417B26F154A600F89F65 /* LaunchScreen.storyboard in Resources */,
 				B424417826F154A600F89F65 /* Assets.xcassets in Resources */,
-				B424417326F154A400F89F65 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0440F0BF26F209D200852D6B /* TodoTableViewCell.swift in Sources */,
 				B424416C26F154A400F89F65 /* AppDelegate.swift in Sources */,
 				B424418426F155AF00F89F65 /* TodoList+CoreDataClass.swift in Sources */,
 				B424416E26F154A400F89F65 /* SceneDelegate.swift in Sources */,
@@ -158,14 +158,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B424417126F154A400F89F65 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B424417226F154A400F89F65 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B424417926F154A600F89F65 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
